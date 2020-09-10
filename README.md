@@ -1,4 +1,5 @@
-# covi-coronavirus-bot
+# Covi - Coronavirus Chatbot
+
 AI Chatbot Dedicated to Answering COVID-19 Questions | Main Frameworks Include Django &amp; Chatterbot
 
 
@@ -6,7 +7,7 @@ AI Chatbot Dedicated to Answering COVID-19 Questions | Main Frameworks Include D
 - Conversations are trained using information and data directly from CDC's official website.
 
 
-DISCLAIMER
+# DISCLAIMER
 
 THIS BOT SHOULD NOT AND SHALL NOT BE USED AS A MEANS FOR DIAGNOSING AND TREATING COVID-19. 
 
