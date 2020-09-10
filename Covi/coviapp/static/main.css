@@ -1,0 +1,252 @@
+/*
+
+Colors
+
+*/
+
+
+html,body{
+
+    font-family: "Helvetica", sans-serif;
+    padding-top: 30px;
+    height:100%;
+
+
+}
+
+.home {
+    padding-bottom: 50px;
+}
+
+
+h1, h2, h3 {
+
+    font-weight: 500;
+}
+
+
+h4,h5, h6 {
+
+    font-weight: 700;
+
+}
+
+
+/* Buttons */
+
+.btn-outline-secondary {
+
+    background-color: transparent !important;
+    border-color: #011627 !important;
+    color:#011627 !important;
+    border-radius: 0;
+    position: relative;
+}
+
+.btn-outline-secondary:before {
+
+    content: '';
+    position: absolute;
+    background-color: #43d3e8;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+
+}
+
+.btn-outline-secondary:hover:before {
+
+    width: 100%;
+
+
+}
+
+
+.btn-secondary {
+
+        background: #011627 !important;
+        border-radius: 0;
+        border-color: #011627 !important;
+}
+
+
+.btn-secondary:hover {
+
+    color: #43d3e8 !important;
+}
+
+.btn-primary {
+
+    background: #43d3e8 !important;
+    border-radius: 0;
+    border-color: #43d3e8 !important;
+    color: #011627 !important;
+
+}
+
+.btn-primary:hover {
+    background: #011627 !important;
+     color: #43d3e8 !important;
+
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+
+    background: white;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav-link,
+.navbar-brand{
+
+    color:#011627;
+
+}
+
+.nav-link:hover,
+.navbar-brand{
+
+    color: #777777;
+}
+
+.navbar-brand {
+
+    font-size: 1.8rem;
+
+}
+
+/* CDC */
+
+
+.cdc{
+
+    background: white;
+    color: black;
+    border: #43d3e8 3px solid;
+
+}
+
+
+
+/* Responsiveness */
+
+@media(max-width: 900px) {
+
+    .navbar .nav-item {
+
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    .logo {
+        margin-right: 20px;
+    }
+
+    h1,h2,h3{
+
+        font-size: 24px;
+    }
+
+    h4,h5,h6{
+        font-size: 20px;
+    }
+
+    .bot {
+        text-align: center;
+    }
+
+
+    .cdc .container {
+        width: 100% !important;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+#container {
+   min-height:100%;
+   position:relative;
+
+}
+#header {
+
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+
+}
+
+
+/* Bot.html */
+
+.form-group {
+
+margin-top: 20px;
+}
+
+
+.bot {
+
+    padding-top: 90px;
+
+
+
+}
+
+/* Speech Bubble */
+
+.speech-bubble {
+	position: relative;
+	background: #43d3e8;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 14px solid transparent;
+	border-right-color: #43d3e8;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -7px;
+	margin-left: -14px;
+
+}
+
+
+/* US Map */
+
+.us-map {
+    padding-top: 90px;
+}

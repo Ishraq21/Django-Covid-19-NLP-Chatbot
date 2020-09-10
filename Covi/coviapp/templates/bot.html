@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<section class="bot container">
+
+<div class="container col-md-4 col-md-offset-4 mt-2 pt-5">
+
+<form action="/chat_input/" method="GET">
+	<div class="container form-group">
+    <h4 style="padding-bottom: 10%">Hi there, I am Covi!</h4>
+        <div class="input-group">
+
+    <input type="text" class="form-control" placeholder="Chat with me...." name="user_input" >
+            <span class="input-group-btn">
+
+    <button type="submit" class="btn btn-primary">Send</button>
+                        </span>
+
+  </div>
+
+
+</div>
+</form>
+
+
+
+</div>
+
+{% if bot_response %}
+
+
+<div class="container col-md-4 col-md-offset-4 py-3">
+
+
+
+
+
+
+    <p class="speech-bubble container py-3"><strong>Covi: </strong>{{bot_response}}</p>
+
+</div>
+
+
+{% endif %}
+
+    </section>
+
+
+
+
+{% endblock content %}
