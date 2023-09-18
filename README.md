@@ -1,4 +1,4 @@
-# Covi - Coronavirus Chatbot
+# Covi - Coronavirus Chatbot using Django & Chatterbot
 
 AI Chatbot Dedicated to Answering COVID-19 Questions | Main Frameworks Include Django &amp; Chatterbot
 
