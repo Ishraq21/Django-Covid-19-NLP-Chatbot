@@ -9,6 +9,6 @@ AI Chatbot Dedicated to Answering COVID-19 Questions | Main Frameworks Include D
 
 **DISCLAIMER**
 
-***THIS BOT SHOULD NOT AND SHALL NOT BE USED AS A MEANS FOR DIAGNOSING AND TREATING COVID-19.***	
+THIS BOT SHOULD NOT AND SHALL NOT BE USED AS A MEANS FOR DIAGNOSING AND TREATING COVID-19.
 
 The application or bot is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
